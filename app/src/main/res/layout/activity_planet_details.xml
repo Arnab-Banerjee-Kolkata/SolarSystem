@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanetDetails">
+
+    <TextView
+        android:id="@+id/planetname"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginTop="192dp"  />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/planetname"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:text="Name:"
+        android:textSize="20dp" />
+</RelativeLayout>
